@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterviewTask
 {
-
+    //VTORO RESENIE ZA PRVOTO PRASANJE
     public   class Animall
     {
         
@@ -121,7 +121,7 @@ namespace InterviewTask
 
         }
             
-
+        
         
 
 
