@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 namespace InterviewTask
 {
 
+
+    //DATA-DRIVEN APPROACH
+
     public class Animal
     {
       private  string ime;
@@ -50,7 +53,6 @@ namespace InterviewTask
         static void Main(string[] args)
         {
 
-            //DATA-DRIVEN APPROACH
 
 
           Animal animal = new Animal();
@@ -106,6 +108,6 @@ namespace InterviewTask
 
             
 
-        }
-    }
+        } 
+    } 
 }
