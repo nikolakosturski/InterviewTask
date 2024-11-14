@@ -9,12 +9,12 @@ namespace InterviewTask2
 
     //QUESTION 2
 
-    public class Animall
+    public abstract class Animall
     {
 
 
 
-        public virtual void OldMcDonaldd(string ime, string zvuk) { }
+        public abstract void OldMcDonaldd(string ime, string zvuk);
 
     }
 
