@@ -9,31 +9,9 @@ namespace InterviewTask
 
     public   class Animall
     {
-        private string ime;
-        private string Zvuk;
+        
 
-        public string getName()
-        {
-            string name = ime;
-            return ime;
-        }
-        public void setName(string name)
-        {
-            this.ime = name;
-        }
-
-        public string getZvuk()
-        {
-            string Sound = Zvuk;
-            return Sound;
-        }
-
-        public void setZvuk(string zvuk)
-        {
-
-            this.Zvuk = zvuk;
-
-        }
+  
         public virtual void OldMcDonaldd(string ime, string zvuk) { }
 
     }
@@ -122,7 +100,7 @@ namespace InterviewTask
 
         internal class Polimorfizam
         {
-
+        
         static void Main(string[] args)
         {
 
@@ -141,10 +119,10 @@ namespace InterviewTask
             Cat t = new Cat();
             t.OldMcDonaldd("Cat", "Meow");
 
-
-
-
         }
+            
+
+        
 
 
         }
