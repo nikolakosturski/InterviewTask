@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace InterviewTask2
 {
 
+    //QUESTION 2
+
     public class Animall
     {
 
