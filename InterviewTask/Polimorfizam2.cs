@@ -219,7 +219,57 @@ namespace InterviewTask2
 
     }
 
+    class Bee : Animall
+    {
 
+        public override void OldMcDonaldd(string ime, string zvuk)
+        {
+
+            Console.WriteLine("Old MacDonald had a farm, E I E I O,\n" +
+                $"And on his farm, he had a {ime}, E I E I O. \n" +
+                $"With a {zvuk},{zvuk} here and a {zvuk},{zvuk} there,\n" +
+                $"Here a {zvuk}, there a {zvuk}, everywhere a {zvuk} {zvuk}.\n" +
+                $"Old MacDonald had a farm, E I E I O.\n");
+
+
+        }
+
+    }
+
+
+    class Tiger : Animall
+    {
+
+        public override void OldMcDonaldd(string ime, string zvuk)
+        {
+
+            Console.WriteLine("Old MacDonald had a farm, E I E I O,\n" +
+                $"And on his farm, he had a {ime}, E I E I O. \n" +
+                $"With a {zvuk},{zvuk} here and a {zvuk},{zvuk} there,\n" +
+                $"Here a {zvuk}, there a {zvuk}, everywhere a {zvuk} {zvuk}.\n" +
+                $"Old MacDonald had a farm, E I E I O.\n");
+
+
+        }
+
+    }
+
+    class Chiken : Animall
+    {
+
+        public override void OldMcDonaldd(string ime, string zvuk)
+        {
+
+            Console.WriteLine("Old MacDonald had a farm, E I E I O,\n" +
+                $"And on his farm, he had a {ime}, E I E I O. \n" +
+                $"With a {zvuk},{zvuk} here and a {zvuk},{zvuk} there,\n" +
+                $"Here a {zvuk}, there a {zvuk}, everywhere a {zvuk} {zvuk}.\n" +
+                $"Old MacDonald had a farm, E I E I O.\n");
+
+
+        }
+
+    }
 
 
 
@@ -265,6 +315,15 @@ namespace InterviewTask2
 
             Bear bear = new Bear();
             bear.OldMcDonaldd("Bear", "Roar");
+
+            Bee bee= new Bee();
+            bee.OldMcDonaldd("Bee", "Buzz");
+
+            Tiger tiger = new Tiger();
+            tiger.OldMcDonaldd("Tiger", "Roar");
+
+            Chiken chiken= new Chiken();
+            chiken.OldMcDonaldd("Chiken", "Cluk");
 
 
 
